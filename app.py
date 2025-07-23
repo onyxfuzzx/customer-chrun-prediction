@@ -31,7 +31,7 @@ def index():
     probability = None
     if request.method == 'POST':
         input_data = {
-            'gender': request.form['gender', ""],
+            'gender': request.form['gender'],
             'SeniorCitizen': int(request.form['SeniorCitizen']),
             'Partner': request.form['Partner'],
             'Dependents': request.form['Dependents'],
