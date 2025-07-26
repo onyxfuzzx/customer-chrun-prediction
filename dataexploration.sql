@@ -3,7 +3,7 @@
 SELECT 
     Gender, 
     COUNT(*) AS TotalCount,
-    COUNT(*) * 1.0 / (SELECT COUNT(*) FROM stg_Churn) AS Percentage
+    COUNT(*) * 100.0 / (SELECT COUNT(*) FROM stg_Churn) AS Percentage
 FROM 
     stg_Churn
 GROUP BY 
@@ -15,7 +15,7 @@ GROUP BY
 SELECT 
     Contract, 
     COUNT(*) AS TotalCount,
-    COUNT(*) * 1.0 / (SELECT COUNT(*) FROM stg_Churn) AS Percentage
+    COUNT(*) * 100.0 / (SELECT COUNT(*) FROM stg_Churn) AS Percentage
 FROM 
     stg_Churn
 GROUP BY 
