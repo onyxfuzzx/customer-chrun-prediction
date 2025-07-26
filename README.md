@@ -9,7 +9,10 @@ An end-to-end machine learning project that predicts customer churn for a teleco
 
 The project is deployed as a web application where users can input customer details and receive **real-time churn predictions**.
 
-<img width="514" height="718" alt="image" src="https://github.com/user-attachments/assets/52015e24-28b7-4a0e-a291-36ec1a77c0dc" />
+<img width="1911" height="910" alt="image" src="https://github.com/user-attachments/assets/b7fe09d5-f204-4418-abae-b353776baf24" />
+<img width="1908" height="909" alt="image" src="https://github.com/user-attachments/assets/fac9e978-b5bf-4b44-beb3-344bad308a75" />
+
+
 
 ---
 
