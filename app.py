@@ -46,8 +46,8 @@ def index():
                 error_message = "Monthly charges must be greater than 0"
             elif total_charges < 0:
                 error_message = "Total charges cannot be negative"
-            elif monthly_charges > 1000:
-                error_message = "Monthly charges seem too high (max: $1000)"
+            elif monthly_charges > 1000000:
+                error_message = "Monthly charges seem too high (max: $1000000)"
             elif tenure > 120:
                 error_message = "Tenure seems too high (max: 120 months)"
             
